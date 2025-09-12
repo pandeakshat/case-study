@@ -1,0 +1,18 @@
+---
+import { FloatingIslandNavbar } from '../components/Floating.jsx';
+import '../styles/global.css';
+---
+
+<html lang="en">
+  <head>
+    <title>Case Study - PA</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <FloatingIslandNavbar client:load />
+    <main class="min-h-screen p-6 max-w-7xl mx-auto">
+      <slot />
+    </main>
+  </body>
+</html>

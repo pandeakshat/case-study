@@ -1,0 +1,28 @@
+---
+import Main from '../layouts/main.astro';
+import ClickableCard from '../components/ClickableCard.jsx';
+
+const collectionCards = import.meta.glob('../content/collection/*.md', { eager: true });
+const collectionList = Object.values(collectionCards);
+---
+
+<Main>
+<div class="grid place-items-center h-screen content-center">
+
+  {collectionList.length === 0 && <p>No collection items found.</p>}
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+    {collectionList.map(({ frontmatter }, i) => (
+      <ClickableCard
+        key={i}
+        title={frontmatter.title}
+        caption={frontmatter.caption}
+        image={frontmatter.image}
+        votes={frontmatter.votes}
+        community={frontmatter.community}
+        readUrl={frontmatter.readUrl}
+      />
+    ))}
+  </div>
+  </div>
+</Main>
