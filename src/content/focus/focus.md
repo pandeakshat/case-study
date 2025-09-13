@@ -1,7 +1,7 @@
 ---
 title: "Trade, Tariff, and Sanctions"
 caption: "Thursday"
-image: "./src/content/images/cs-2-trade.png"
+image: "/images/cs-2-trade.png"
 votes: 2
 community: 0
 readUrl: " https://medium.com/pandeakshat-case-study/the-trade-tariff-sanction-reality-why-how-boon-bane-04417924e94e"

@@ -1,8 +1,8 @@
 ---
 title: Trade, Tariff, Sanction
 caption: Thursday
-image: /src/content/images/cs-2-trade.png
-readUrl: https://example.com/read
+image: /images/cs-2-trade.png
+readUrl: https://medium.com/pandeakshat-case-study/the-trade-tariff-sanction-reality-why-how-boon-bane-04417924e94e
 voteLinks:
   instagram: https://instagram.com/example
   medium: https://medium.com/@example

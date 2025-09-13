@@ -1,7 +1,7 @@
 ---
 title: Placeholder
 caption: Tuesday
-image: ./src/content/images/case-study.png
+image: /images/case-study.png
 readUrl: https://example.com/read
 voteLinks:
   instagram: https://instagram.com/example
