@@ -7,7 +7,7 @@ voteLinks:
   instagram: https://instagram.com/example
   medium: https://medium.com/@example
   substack: https://example.substack.com
-votes: 123
-community: 56
+votes: 0
+community: 0
 ---
 
